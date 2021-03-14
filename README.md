@@ -38,8 +38,9 @@ We are mainly testing 2 major functionalities - login and settings
 
 **Prerequisites:**
 
-Node.js should be installed
-VS code should be installed ( not mandatory as the tests can be run from command line as well )
+1) Node.js should be installed
+2) VS code should be installed ( not mandatory as the tests can be run from command line as well )
+3) Chrome browser should be installed
 
 **Steps:**
 
@@ -56,9 +57,11 @@ VS code should be installed ( not mandatory as the tests can be run from command
 
 ````npx cypress run --headed --browser chrome --env configFile=mobile````
 
-6) To run in desktop view , run the below command :
+6) To run in desktop view in chrome browser , run the below command :
 
 ````npx cypress run --headed --browser chrome --env configFile=desktop````
+
+the test can be run in firefox and edge as well, just replace the 'chrome' in the above command with different browser given that the other browsers are prsent in the system.
 
 7) Another way to run the tests is to open cypress runner and run the test through GUI. The command for that is : ````npx cypress open````
   
