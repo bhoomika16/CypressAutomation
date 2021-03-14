@@ -61,7 +61,7 @@ We are mainly testing 2 major functionalities - login and settings
 
 ````npx cypress run --headed --browser chrome --env configFile=desktop````
 
-the test can be run in firefox and edge as well, just replace the 'chrome' in the above command with different browser given that the other browsers are prsent in the system.
+The test can be run in firefox and edge as well, just replace 'chrome' in the above command with different browser given that the other browsers are present in the system.
 
 7) Another way to run the tests is to open cypress runner and run the test through GUI. The command for that is : ````npx cypress open````
   
