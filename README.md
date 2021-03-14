@@ -12,27 +12,27 @@ We are mainly testing 2 major functionalities - login and settings
 
 **Settings tests**
 
-1.Verify that all the fields are present in the settings page
+1. Verify that all the fields are present in the settings page
 
-2.Verify that the user is able to update the username field from the settings page
+2. Verify that the user is able to update the username field from the settings page
 
-3.Verify that the user is able to update the email id field from the settings page
+3. Verify that the user is able to update the email id field from the settings page
 
-4.Verify that the user is able to update the bio field from the settings page
+4. Verify that the user is able to update the bio field from the settings page
 
-5.Verify that the user is able to update the password field from the settings page
+5. Verify that the user is able to update the password field from the settings page
 
-6.Verify that the user is able to update the profile pic from the settings page
+6. Verify that the user is able to update the profile pic from the settings page
 
-7.Verify the validation message when the email id field is updated with an existing email id
+7. Verify the validation message when the email id field is updated with an existing email id
 
-8.Verify the validation message when the email id field is updated with a blank email id
+8. Verify the validation message when the email id field is updated with a blank email id
 
-9.Verify the validation message when the username field is updated with an existing username
+9. Verify the validation message when the username field is updated with an existing username
 
-10.Verify the validation message when the username field is updated with a blank username
+10. Verify the validation message when the username field is updated with a blank username
 
-11.Verify the validation message when the password field is updated with an invalid password
+11. Verify the validation message when the password field is updated with an invalid password
 
 **Instructions on how to run the tests:**
 
