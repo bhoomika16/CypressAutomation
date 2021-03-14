@@ -4,15 +4,15 @@
 
 We are mainly testing 2 major functionalities - login and settings
 
-Login tests
+**Login tests**
 
 1. Verify login functionality with valid user credentials
 
 2. Verify the error message when user tries to login with invalid credentials
 
-Settings tests
+**Settings tests**
 
-1. Verify that all the fields are present in the settings page
+1.Verify that all the fields are present in the settings page
 
 2.Verify that the user is able to update the username field from the settings page
 
