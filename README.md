@@ -54,13 +54,13 @@ VS code should be installed ( not mandatory as the tests can be run from command
 
 5) To run in mobile view , run the below command :
 
-npx cypress run --headed --browser chrome --env configFile=mobile
+````npx cypress run --headed --browser chrome --env configFile=mobile````
 
 6) To run in desktop view , run the below command :
 
-npx cypress run --headed --browser chrome --env configFile=desktop
+````npx cypress run --headed --browser chrome --env configFile=desktop````
 
-7) Another way to run the tests is to open cypress runner and run the test through GUI. The command for that is : npx cypress open
+7) Another way to run the tests is to open cypress runner and run the test through GUI. The command for that is : ````npx cypress open````
   
 
 And that is it, it should run all the 13 test cases which I have written
