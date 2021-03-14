@@ -13,7 +13,7 @@ describe('My first test suite', function () {
         cy.get(homePage.userName).contains('bolia15');
     })
 
-    it('Verify the error messaage when user tries to login with invalid credentials', function () {
+    it('Verify the error message when user tries to login with invalid credentials', function () {
         cy.login(this.testData.validUser.email, 'Dec@2015');
         cy.get(signInPage.errorMessage).contains('email or password is invalid');
     })
